@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109300810961",
+    "project_id": "vite-firebase-c0b17",
+    "storage_bucket": "vite-firebase-c0b17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109300810961:android:a24fb3726ef04e1ff631f0",
+        "android_client_info": {
+          "package_name": "com.ahlehadithconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADHArqso07931KvZtRvRwIQ-riDFpYVI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109300810961:android:fa039e8061e95d13f631f0",
+        "android_client_info": {
+          "package_name": "com.nativefirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADHArqso07931KvZtRvRwIQ-riDFpYVI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

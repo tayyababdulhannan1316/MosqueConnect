@@ -24,7 +24,7 @@ const LoginScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title} variant="headlineLarge">
-        Welcome Back! 👋
+        Welcome Back!
       </Text>
       <TextInput
         label="Email"

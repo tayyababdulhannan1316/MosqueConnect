@@ -26,7 +26,7 @@ const RegisterScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title} variant="headlineLarge">
-        Join the Community! 🎉
+        Join our Community! 
       </Text>
       <TextInput
         label="Email"

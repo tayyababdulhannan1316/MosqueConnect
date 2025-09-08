@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { PaperProvider } from 'react-native-paper';
 
-import auth, { onAuthStateChanged } from '@react-native-firebase/auth'; // ✅ import modular API
+import auth, { onAuthStateChanged } from '@react-native-firebase/auth'; 
 
 import AuthStack from './src/navigation/AuthStack';
 import MainStack from './src/navigation/MainStack';

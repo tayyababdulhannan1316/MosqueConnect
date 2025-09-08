@@ -3,12 +3,7 @@ import { PermissionsAndroid, Platform } from 'react-native';
 import Geolocation from 'react-native-geolocation-service';
 
 export const checkLocationPermissions = async () => {
-  if (Platform.OS === 'ios') {
-    const status = await Geolocation.requestAuthorization('whenInUse');
-    return status === 'granted';
-  }
-
-  if (Platform.OS === 'android') {
+   if (Platform.OS === 'android') {
     try {
       const granted = await PermissionsAndroid.check(
         PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION
@@ -23,11 +18,6 @@ export const checkLocationPermissions = async () => {
 };
 
 export const requestLocationPermission = async () => {
-  if (Platform.OS === 'ios') {
-    const status = await Geolocation.requestAuthorization('whenInUse');
-    return status === 'granted';
-  }
-
   if (Platform.OS === 'android') {
     try {
       const granted = await PermissionsAndroid.request(
